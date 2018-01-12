@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class beg261
+class beg262
 {
    
     void merge(int arr[], int l, int m, int r)
@@ -99,5 +99,8 @@ class beg261
  
         System.out.println("\nSorted array");
         printArray(a);
+
+	System.out.println("middle one : "+a[n/2]);
+
     }
 }
